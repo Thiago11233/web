@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTTP</title>
+</head>
+<body>
+
+<h1>Protocolo HTTP</h1>
+
+<a href="index.html">Voltar</a>
+
+<p>O HTTP é o protocolo responsável pela comunicação entre navegador e servidor.</p>
+
+<h2>Cliente e Servidor</h2>
+
+<p>Cliente é o navegador. Servidor é o computador que hospeda o site.</p>
+
+<h2>Requisição e Resposta</h2>
+
+<p>O navegador envia uma requisição e o servidor devolve uma resposta.</p>
+
+<h2>Métodos</h2>
+
+<h3>GET</h3>
+<p>Solicita informações.</p>
+
+<h3>POST</h3>
+<p>Envia informações.</p>
+
+<h2>Exemplo de Requisição</h2>
+
+<pre>
+GET /index.html HTTP/1.1
+Host: exemplo.com
+</pre>
+
+<h2>Exemplo de Resposta</h2>
+
+<pre>
+HTTP/1.1 200 OK
+Content-Type: text/html
+</pre>
+
+<h2>Códigos HTTP</h2>
+
+<ul>
+<li>200 - Sucesso.</li>
+<li>301 - Redirecionamento.</li>
+<li>400 - Requisição inválida.</li>
+<li>403 - Acesso proibido.</li>
+<li>404 - Página não encontrada.</li>
+<li>500 - Erro interno.</li>
+</ul>
+
+</body>
+</html>
